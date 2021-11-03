@@ -1,0 +1,14 @@
+package es.pildoras.IoC;
+
+public class UsoEmpleados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// CREACIÓN DE OBJETOS DE TIPO EMPLEAADO
+		JefeEmpleado empleado1= new JefeEmpleado();
+		
+		//USO OBJETOS CREADOS
+		System.out.println(empleado1.getTareas());
+	}
+
+}

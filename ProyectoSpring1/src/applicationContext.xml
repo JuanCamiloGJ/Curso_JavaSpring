@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans   
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context-3.1.xsd
+">
+	<!-- creacion de la dependencia -->
+	<bean id="miInforme" class="es.pildoras.IoC.Informe"></bean>
+	
+	
+	
+	<!-- el id, identifica el bean, y la class es el objeto que queremos utilizar -->
+	<bean id="miEmpleado" class="es.pildoras.IoC.JefeEmpleado">
+		
+		<!-- configurar dependencia con un constructor-->
+		<constructor-arg ref="miInforme"></constructor-arg>
+	</bean>
+	
+	<bean id="miSecretarioEmpleado" class="es.pildoras.IoC.SecretarioEmpleado">
+		<!-- configurar dependencia  con un setter-->
+		<!-- el nombre es el nombre del emtodo que se genera pero ojo! sin el set y en minuscula
+		es decir el metodo generado es setInformeNuevo(), aqui se ponde informeNuevo -->
+		<property name="informeNuevo" ref="miInforme"></property>
+		
+	</bean>
+	
+	
+
+</beans>
