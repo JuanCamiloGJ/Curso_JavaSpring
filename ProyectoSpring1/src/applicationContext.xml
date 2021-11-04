@@ -8,16 +8,25 @@
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context-3.1.xsd
 ">
+	
+	<context:property-placeholder location="classpath:datosEmpresa.propiedades"/>
+	
+	
+	
 	<!-- creacion de la dependencia -->
 	<bean id="miInforme" class="es.pildoras.IoC.Informe"></bean>
 	
 	
 	
 	<!-- el id, identifica el bean, y la class es el objeto que queremos utilizar -->
-	<bean id="miEmpleado" class="es.pildoras.IoC.JefeEmpleado">
+	<bean id="miDirectorEmpleado" class="es.pildoras.IoC.DirectorEmpleado">
 		
 		<!-- configurar dependencia con un constructor-->
 		<constructor-arg ref="miInforme"></constructor-arg>
+		
+		<!-- en name se llama al metodo set pero con la nomenclatura sin el set y en minuscula -->
+		<property name="email" value="${email}"></property>
+		<property name="nombreEmpresa" value="${nombreEmpresa}"></property>
 	</bean>
 	
 	<bean id="miSecretarioEmpleado" class="es.pildoras.IoC.SecretarioEmpleado">
@@ -25,6 +34,11 @@
 		<!-- el nombre es el nombre del emtodo que se genera pero ojo! sin el set y en minuscula
 		es decir el metodo generado es setInformeNuevo(), aqui se ponde informeNuevo -->
 		<property name="informeNuevo" ref="miInforme"></property>
+		
+		<!-- en name se llama al metodo set pero con la nomenclatura sin el set y en minuscula -->
+		<property name="email" value="secretaria@pildorasinformaticas.es"></property>
+		<property name="nombreEmpresa" value="Pildoras Informáticas"></property>
+		
 		
 	</bean>
 	

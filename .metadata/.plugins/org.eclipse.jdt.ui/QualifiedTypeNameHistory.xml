@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="es.pildoras.IoC.CreacionInformes"/>
+    <fullyQualifiedTypeName name="es.pildoras.IoC.DirectorEmpleado"/>
+    <fullyQualifiedTypeName name="es.pildoras.IoC.SecretarioEmpleado"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 </qualifiedTypeNameHistroy>

@@ -29,9 +29,23 @@ public class UsoEmpleados {
 		*/
 		//4. cerrar xml
 		ClassPathXmlApplicationContext contexto= new ClassPathXmlApplicationContext("applicationContext.xml");
-		Empleados Maria=contexto.getBean("miSecretarioEmpleado", Empleados.class);
+		SecretarioEmpleado Maria=contexto.getBean("miSecretarioEmpleado", SecretarioEmpleado.class);
+		SecretarioEmpleado Pablo=contexto.getBean("miSecretarioEmpleado", SecretarioEmpleado.class);
 		System.out.println(Maria.getTareas());
 		System.out.println(Maria.getInforme());
+		System.out.println("Email: "+Maria.getEmail());
+		System.out.println(Maria.getNombreEmpresa());
+		System.out.println("Email Pablo: "+Pablo.getEmail());
+		
+		System.out.println("====================================================================");
+		DirectorEmpleado Juan = contexto.getBean("miDirectorEmpleado", DirectorEmpleado.class);
+		System.out.println(Juan.getTareas());
+		System.out.println(Juan.getInforme());
+		System.out.println("Email Juan: "+Juan.getEmail());
+		System.out.println(Juan.getNombreEmpresa());
+		
+		
+		
 		contexto.close();
 	}
 
