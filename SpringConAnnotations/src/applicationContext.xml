@@ -11,4 +11,6 @@
 	<!-- etiqueta para que se escaneen la annotations, se coloca el paquete de las clases -->
 	<context:component-scan base-package="es.pildoras.pruebaannotations"></context:component-scan>
 
+
+	
 </beans>
