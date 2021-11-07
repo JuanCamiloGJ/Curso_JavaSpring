@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 //no tiene que concidir con el nombre de la clase
 @Component
-
 public class ComercialExperimentado implements Empleados, InitializingBean, DisposableBean{
 
 
@@ -29,6 +28,9 @@ public class ComercialExperimentado implements Empleados, InitializingBean, Disp
 		return nuevoInforme.getInformeFinanciero();
 	}
 
+	
+	
+	
 	@Autowired
 	@Qualifier("informeFinancieroTrim2")
 	private CreacionInformeFinanciero nuevoInforme;
@@ -41,13 +43,13 @@ public class ComercialExperimentado implements Empleados, InitializingBean, Disp
 	//reemplaza el metodo init
 	public void destroy() throws Exception {
 		// TODO Auto-generated method stub
-		System.out.println("Ejecutando antes de la destruccion");
+		//System.out.println("Ejecutando antes de la destruccion");
 	}
 	//reemplaza el metodo destroy
 	@Override
 	public void afterPropertiesSet() throws Exception {
 		// TODO Auto-generated method stub
-		System.out.println("Ejecutado tras creacion de bean");
+		//System.out.println("Ejecutado tras creacion de bean");
 	}
 
 

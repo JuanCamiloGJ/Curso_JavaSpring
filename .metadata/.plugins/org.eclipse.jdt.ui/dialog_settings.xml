@@ -28,7 +28,7 @@
 	</section>
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="95"/>
-		<item key="DIALOG_Y_ORIGIN" value="-60"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 		<item key="DIALOG_WIDTH" value="423"/>
 		<item key="DIALOG_HEIGHT" value="601"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|8.830189|0|WINDOWS|1|-13|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -54,6 +54,7 @@
 		<item key="FinalModifier" value="false"/>
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="false"/>
+		<item key="InsertPosition.v2" value="0"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item key="SortOrdering" value="false"/>
