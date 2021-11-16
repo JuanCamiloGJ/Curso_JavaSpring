@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,12 +7,11 @@
 <title>Formulario</title>
 </head>
 <body>
-	<form action="otroProcesoFormulario" method="get">
-		
-		<input type="text" name="nombreAlumno">
-		<input type="submit">
-	
-	
+	<form action="../secundario/otroProcesoFormulario" method="get">
+
+		<input type="text" name="nombreAlumno"> <input type="submit">
+
+
 	</form>
 </body>
 </html>

@@ -10,7 +10,7 @@ public class ControladorPage {
 	@RequestMapping
 	public String muestraPagina() {
 		
-		
+		System.out.println("jre 11");
 		return "paginaEjemplo";
 		
 	}
