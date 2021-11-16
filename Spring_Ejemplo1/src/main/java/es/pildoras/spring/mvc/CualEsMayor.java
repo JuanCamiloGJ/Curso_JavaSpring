@@ -6,7 +6,7 @@ public class CualEsMayor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("hola jsldklsdkjf");
 		Scanner leer = new Scanner(System.in);
 		String mensaje = "";
 		int cont = 0;
