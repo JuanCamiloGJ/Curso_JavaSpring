@@ -17,13 +17,26 @@
 				nuestra clase alumno, es decir nuestro metodo se llama setNombre, aqui se pone nombre
 				si nuestro metodo se llamara setElNombre se colocaria elNombre -->
 		Nombre:<form:input path="nombre" />
+		<form:errors path="nombre" style="color:red"/>
 		<br>
 		<br>
 		<br>
 		Apellido:<form:input path="apellido" />
+		<form:errors path="apellido" style="color:red"/>
 		<br>
 		<br>
 		<br>
+		Edad:<form:input path="edad" />
+		<form:errors path="edad" style="color:red"/>
+		<br>
+		<br>
+		<br>
+		Email:<form:input path="email" />
+		<form:errors path="email" style="color:red"/>
+		<br>
+		<br>
+		<br>
+		
 		Asignaturas Optativa: <br>
 		<form:select path="optativa" multiple="true">
 			<form:option value="Diseño" label="Diseño"/>

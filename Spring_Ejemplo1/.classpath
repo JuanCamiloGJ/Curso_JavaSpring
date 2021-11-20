@@ -15,7 +15,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -344,19 +343,19 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.servlet-api.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/classmate-1.5.1.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/hibernate-validator-7.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/hibernate-validator-annotation-processor-7.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/hibernate-validator-cdi-7.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jakarta.el-4.0.0.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jakarta.validation-api-3.0.0.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jboss-logging-3.4.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/juank/Descargas/hibernate-validator-6.2.0.Final-dist/hibernate-validator-6.2.0.Final/dist/hibernate-validator-6.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/juank/Descargas/hibernate-validator-6.2.0.Final-dist/hibernate-validator-6.2.0.Final/dist/hibernate-validator-annotation-processor-6.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/juank/Descargas/hibernate-validator-6.2.0.Final-dist/hibernate-validator-6.2.0.Final/dist/hibernate-validator-cdi-6.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/juank/Descargas/hibernate-validator-6.2.0.Final-dist/hibernate-validator-6.2.0.Final/dist/lib/required/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/juank/Descargas/hibernate-validator-6.2.0.Final-dist/hibernate-validator-6.2.0.Final/dist/lib/required/jakarta.el-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/juank/Descargas/hibernate-validator-6.2.0.Final-dist/hibernate-validator-6.2.0.Final/dist/lib/required/jakarta.validation-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/juank/Descargas/hibernate-validator-6.2.0.Final-dist/hibernate-validator-6.2.0.Final/dist/lib/required/jboss-logging-3.4.1.Final.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.servlet-api.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

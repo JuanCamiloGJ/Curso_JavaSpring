@@ -13,7 +13,7 @@ public class TirarControlador {
 	public String otroProcesoFormulario(@RequestParam("nombreAlumno") String nombre, Model modelo) {
 		// String nombre = request.getParameter("nombreAlumno");
 
-		nombre += " comeme  el pene";
+		nombre += " ";
 
 		String mensajefinal = "¿Quien es el mejor alumno? " + nombre;
 

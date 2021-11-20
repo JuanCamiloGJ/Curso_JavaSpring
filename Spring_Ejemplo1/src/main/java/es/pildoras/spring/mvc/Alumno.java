@@ -1,5 +1,12 @@
 package es.pildoras.spring.mvc;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Alumno {
 	
 	
@@ -34,9 +41,35 @@ public class Alumno {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+	
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	
+
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
 	private String idiomasAlumno;
 	private String ciudadEstudios;
+	@NotNull
+	@Size(min=2, message=" Campo requerido")
 	private String nombre;
+	@NotBlank
 	private String apellido;
 	private String optativa;
+	
+	@Min(value=10, message="No se permiten edades menores de 10")
+	@Max(value=100, message="No se permiten edades mayores de 100")
+	private int edad;
+	@Email
+	private String email;
 }

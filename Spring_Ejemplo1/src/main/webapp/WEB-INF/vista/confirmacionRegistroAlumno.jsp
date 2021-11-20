@@ -8,7 +8,7 @@
 </head>
 <body>
 	<!-- con las jsp tags podemos usar el nombre que le dimos en el model y llamar los datos. -->
-	El alumno con nombre ${elAlumno.nombre} y apellido ${elAlumno.apellido} se ha registrado.
+	El alumno con nombre ${elAlumno.nombre}, apellido ${elAlumno.apellido} , edad <strong>${elAlumno.edad}</strong> y email <strong>${elAlumno.email}</strong> se ha registrado.
 	<br/>
 	La asignatura escogida es: ${elAlumno.optativa}
 	<br>
