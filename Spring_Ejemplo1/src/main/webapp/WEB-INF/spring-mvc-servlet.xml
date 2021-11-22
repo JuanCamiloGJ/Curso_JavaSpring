@@ -26,6 +26,11 @@
 	<!-- se le dice a spring donde estan los recurso a usar -->
 	<mvc:resources location="/recursos/"
 		mapping="/recursos/**"></mvc:resources>
+		
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames" value="resources/messages"></property>
+	</bean>	
+		
 </beans>
 
 

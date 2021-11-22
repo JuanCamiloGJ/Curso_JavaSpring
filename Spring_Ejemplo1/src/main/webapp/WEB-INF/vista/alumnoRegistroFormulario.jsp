@@ -36,7 +36,11 @@
 		<br>
 		<br>
 		<br>
-		
+		C. Postal:<form:input path="codigoPostal" />
+		<form:errors path="codigoPostal" style="color:red"/>
+		<br>
+		<br>
+		<br>
 		Asignaturas Optativa: <br>
 		<form:select path="optativa" multiple="true">
 			<form:option value="Diseño" label="Diseño"/>
