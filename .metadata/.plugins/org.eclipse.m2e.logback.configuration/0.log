@@ -1823,3 +1823,21 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 2021-11-21 19:09:41,370 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-11-21 19:09:41,371 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\test\resources
 2021-11-21 19:16:18,870 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-22 17:32:33,911 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-11-22 18:12:49,937 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-22 18:12:49,937 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\main\resources
+2021-11-22 18:12:49,939 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-22 18:12:49,939 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\test\resources
+2021-11-22 18:13:01,228 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-22 18:13:01,229 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\main\resources
+2021-11-22 18:13:01,229 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-22 18:13:01,230 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\test\resources
+2021-11-22 18:13:38,811 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-22 18:13:40,426 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-22 18:13:40,427 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\main\resources
+2021-11-22 18:13:40,429 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-22 18:13:40,429 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\test\resources
+2021-11-22 18:17:04,718 [Worker-9: Rebuilding] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-22 18:17:04,719 [Worker-9: Rebuilding] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\main\resources
+2021-11-22 18:17:04,719 [Worker-9: Rebuilding] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-22 18:17:04,743 [Worker-9: Rebuilding] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\test\resources
