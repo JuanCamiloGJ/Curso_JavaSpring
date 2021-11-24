@@ -82,6 +82,7 @@ public class Clientes {
 
 
 	@Id // se especifica que es PK
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")//aqui se especifica que esta variable hace referencia a la columna id de nuestra bbdd
 	private int id;
 	@Column(name="nombre")
