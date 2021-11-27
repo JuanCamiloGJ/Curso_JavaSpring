@@ -1851,3 +1851,9 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 2021-11-23 18:35:16,019 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\main\resources
 2021-11-23 18:35:16,020 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-11-23 18:35:16,021 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\test\resources
+2021-11-25 16:48:28,244 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-11-25 16:51:00,486 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-25 16:51:00,501 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\main\resources
+2021-11-25 16:51:00,502 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-25 16:51:00,503 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Usuario\juank\Escritorio\Cursos doing\Curso Spring\Spring_Ejemplo1\src\test\resources
+2021-11-26 18:46:54,020 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
