@@ -11,7 +11,7 @@ public class DetallesCliente {
 	}
 
 	public DetallesCliente(String web, String tfno, String comentarios) {
-		
+
 		this.web = web;
 		this.tfno = tfno;
 		this.comentarios = comentarios;
@@ -49,6 +49,21 @@ public class DetallesCliente {
 		this.comentarios = comentarios;
 	}
 
+	public Cliente getElCliente() {
+		return elCliente;
+	}
+
+	public void setElCliente(Cliente elCliente) {
+		this.elCliente = elCliente;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "DetallesCliente [id=" + id + ", web=" + web + ", tfno=" + tfno + ", comentarios=" + comentarios + "]";
+	}
+
+
 	@Id // se especifica que es PK
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id") // aqui se especifica que esta variable hace referencia a la columna id de
@@ -60,4 +75,8 @@ public class DetallesCliente {
 	private String tfno;
 	@Column(name = "comentarios")
 	private String comentarios;
+
+	// conexion bilateral
+	@OneToOne(mappedBy="detallesCliente", cascade=CascadeType.ALL)//elmappedBy hace referencia al datodetallesCliente creado en la clase cliente
+	private Cliente elCliente;
 }

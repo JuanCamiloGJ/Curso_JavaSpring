@@ -57,6 +57,13 @@ public class Cliente {
 		this.apellido = apellido;
 	}
 
+	
+	@Override
+	public String toString() {
+		return "Cliente [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", direccion=" + direccion + "]";
+	}
+
+
 	// recordemos que es un union unilateral ya no bilateral entonces
 	// primero creamos un campo más de tipo DetallesCliente
 	@OneToOne(cascade = CascadeType.ALL) // se establece que es uno a uno y el tipo de cascada

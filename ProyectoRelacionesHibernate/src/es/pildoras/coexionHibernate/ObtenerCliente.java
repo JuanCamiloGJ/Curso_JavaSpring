@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class insertaCliente {
+public class ObtenerCliente {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,25 +13,29 @@ public class insertaCliente {
 
 		Session miSession = miFactory.openSession();
 		try {
-			// crea obj cliente
-			Cliente cliente = new Cliente("Juan", "Garcia", "Barrio popular");
-			DetallesCliente detallesCliente = new DetallesCliente("www.spring.com", "6584955", "mi segundo cliente");
-			//asosciar los objetos
-			cliente.setDetallesCliente(detallesCliente);//se le pasa el objeto al metodo 
-			
-			//esto guarda la informacion en las dos tablas relacionadas
+
 			// comenzar transacion
 			miSession.beginTransaction();
-			// guaradar obj BBDD es como un insert, entonces el save es un insert
-			miSession.save(cliente);
-			// commit// aqui se le indica que lo que se quiere guardar quede, si no seria un
+			//obtener obj detalles cliente
+			// obtener el detallescliente que vamos a encontrar.
+			DetallesCliente detallesDeCliente = miSession.get(DetallesCliente.class, 3);// almacenamos el detallescliente con id 1 en nuestro objeto
+																
+			System.out.println(detallesDeCliente);
+			
+			System.out.println(detallesDeCliente.getElCliente());//obtenemos el objeto cliente mediente el metodo que hicimos en detallescliente
+			//ahora borramos:
+			
+			System.out.println("ahora vamos a eliminar en cascada");
+			//el session es el que hace todo el trabajo
+			miSession.delete(detallesDeCliente);
 			// rollback
 			miSession.getTransaction().commit();
 
-			System.out.println("Registro insertado correctamente en BBDD");
+			
 
 		} catch (Exception e) {
 			// TODO: handle exception
+			e.printStackTrace();
 		} finally {
 			miFactory.close();
 			miSession.close();
